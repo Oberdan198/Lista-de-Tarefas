@@ -1,10 +1,19 @@
 @charset "UTF-8";
-
-body{
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
     background: #edf0f1;
     padding: 80px 0 0 0;
 }
 
+/* .geral {
+    min-height: 100%;
+    position: relative;
+    width: 800px;
+} */
 body, input, button{
     font-family: 'Roboto', sans-serif;
 }
@@ -243,4 +252,14 @@ ul.tarefas#completado:not(:empty):before{
     top: 30px;
     left: 50%;
     margin: 0 0 0 -75px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #25b99a;
+    color: white;
+    text-align: center;
 }
